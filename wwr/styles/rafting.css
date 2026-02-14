@@ -17,18 +17,12 @@
     --body-font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* ================================
-   GLOBAL RESET (ONLY ONCE)
-================================ */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* ================================
-   BODY
-================================ */
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
@@ -127,17 +121,12 @@ h2::after {
     border-radius: 2px;
 }
 
-/* Content spacing */
 p,
 section,
 article {
     margin: 16px;
     padding: 8px;
 }
-
-/* ================================
-   HERO - CORRECTED
-================================ */
 
 .hero {
     position: relative;
@@ -176,7 +165,6 @@ article {
     border-radius: 8px;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
     background-color: rgba(255, 255, 255, 0.95);
-
 }
 
 .hero-article img {
@@ -198,9 +186,6 @@ article {
     line-height: 1.5;
 }
 
-/* ================================
-   HISTORY SECTION
-================================ */
 .history-section {
     background: white;
     padding: 2rem;
