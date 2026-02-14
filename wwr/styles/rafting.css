@@ -281,6 +281,11 @@ figcaption {
    No duplicate body/header/footer
 ================================ */
 
+:root {
+    --primary-color: #0f4c5c;
+    --white: #ffffff;
+}
+
 .contact-page main {
     padding: 2rem 0;
 }
@@ -340,7 +345,8 @@ fieldset {
 }
 
 .submit-btn:hover {
-    background-color: #124559;
+    background-color: #0b3a47;
+    /* darker for stronger contrast */
 }
 
 /* ================================
