@@ -44,6 +44,7 @@ body {
 ================================ */
 header {
     background-color: var(--primary-color);
+    color: var(--white);
     padding: 1.5rem;
     border-radius: 0 0 8px 8px;
     margin-bottom: 2rem;
