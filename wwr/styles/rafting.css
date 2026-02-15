@@ -1,7 +1,7 @@
 /* rafting.css - Consolidated Version */
 
 /* ================================
-   ROOT VARIABLES (ONLY ONE BLOCK)
+   ROOT VARIABLES (ONLY ONE BLOCK)
 ================================ */
 :root {
     --primary-color: #1a5f7a;
@@ -34,7 +34,7 @@ body {
 }
 
 /* ================================
-   HEADER
+   HEADER
 ================================ */
 header {
     background-color: var(--primary-color);
@@ -57,7 +57,7 @@ header img {
 }
 
 /* ================================
-   NAVIGATION
+   NAVIGATION
 ================================ */
 .nav-flex {
     list-style: none;
@@ -88,7 +88,7 @@ nav a[href="about.html"] {
 }
 
 /* ================================
-   HEADINGS
+   HEADINGS
 ================================ */
 h1,
 h2 {
@@ -221,7 +221,7 @@ article {
 }
 
 /* ================================
-   ADVENTURES GALLERY
+   ADVENTURES GALLERY
 ================================ */
 main section:nth-of-type(2) {
     background-color: white;
@@ -269,8 +269,8 @@ figcaption {
 }
 
 /* ================================
-   CONTACT PAGE (SCOPED PROPERLY)
-   No duplicate body/header/footer
+   CONTACT PAGE (SCOPED PROPERLY)
+   No duplicate body/header/footer
 ================================ */
 
 .contact-page {
@@ -335,7 +335,7 @@ fieldset {
 }
 
 /* ================================
-   FOOTER (ONLY ONE VERSION)
+   FOOTER (ONLY ONE VERSION)
 ================================ */
 footer {
     display: flex;
@@ -390,7 +390,7 @@ footer .social img {
 }
 
 /* ===============================
-   CALL TO ACTION
+   CALL TO ACTION
 =================================*/
 .cta {
     text-align: center;
@@ -422,7 +422,7 @@ footer .social img {
 }
 
 /* ===============================
-   HOME GRID SECTION
+   HOME GRID SECTION
 =================================*/
 .home-grid {
     display: grid;
@@ -448,7 +448,7 @@ footer .social img {
 }
 
 /* ===============================
-   NEWSLETTER SECTION
+   NEWSLETTER SECTION
 =================================*/
 .newsletter {
     background-color: #f4f4f4;
