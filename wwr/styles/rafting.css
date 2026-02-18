@@ -141,6 +141,25 @@ h2 {
     border-radius: 8px;
 }
 
+.hero article img {
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin: 0 0 0.5rem 1rem;
+    border-radius: 4px;
+    border: 2px solid var(--secondary-color);
+    object-fit: cover;
+}
+
+.hero-article p {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    color: var(--accent1-color);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
 /* ================================
    HISTORY SECTION (ABOUT)
 ================================ */
