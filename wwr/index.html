@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - White Water Rafting LLC</title>
+    <title>Home | White Water Rafting LLC</title>
     <meta name="description"
-      content="Experience thrilling white water rafting adventures. Discover our exciting trips, professional guides, and unforgettable river journeys.">
+      content="Explore thrilling rafting adventures with White Water Rafting LLC. Sign up for our newsletter and discover our exciting offers.">
     <meta name="author" content="Chatt Kato">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -29,62 +29,39 @@
 
 <main>
 
-    <section class="hero">
-        <img src="images/hero-rafting.jpg"
-          alt="Group of rafters navigating exciting white water rapids">
-        <h1>Adventure Awaits on Every River</h1>
+    <div class="hero">
+        <img src="images/hero-home.jpg" alt="Adventure awaits in white water rafting">
+        <h1>Experience the Thrill of White Water Rafting!</h1>
+    </div>
+
+    <section class="call-to-action">
+        <h2>Ready for Adventure?</h2>
+        <a href="trips.html" class="btn">Explore Our Trips</a>
     </section>
 
-
-    <section class="cta">
-        <h2>Ready for Your Next Adventure?</h2>
-        <p>Explore our professionally guided rafting trips designed for families, thrill
-            seekers, and adventure lovers.</p>
-        <a href="trips.html" class="cta-button">View Our Trips</a>
-    </section>
-
-    <section class="home-grid">
-
+    <section class="content-grid">
         <div class="grid-item">
-            <img src="images/adventure.jpg" alt="Family enjoying a rafting trip together">
-            <h3>Unforgettable Experiences</h3>
-            <p>
-                Our rafting adventures create lasting memories. Whether you are new to rafting
-                or an experienced explorer,
-                we offer trips that combine excitement, teamwork, and breathtaking scenery.
-            </p>
+            <img src="images/adventure1.jpg" alt="Thrilling rafting">
+            <h3>Thrilling Adventures</h3>
+            <p>Join us for a day filled with excitement on the water.</p>
         </div>
 
         <div class="grid-item">
-            <img src="images/safety.jpg"
-              alt="Professional rafting guide giving safety instructions">
-            <h3>Safety Comes First</h3>
-            <p>
-                Our certified and experienced guides prioritize your safety at every stage of
-                the journey.
-                We provide top-quality equipment and thorough safety briefings before every
-                trip.
-            </p>
+            <img src="images/adventure2.jpg" alt="Scenic river views">
+            <h3>Scenic Views</h3>
+            <p>Experience the beauty of nature as you raft through stunning landscapes.</p>
         </div>
 
     </section>
 
-    <section class="newsletter">
-        <h2>Join Our Adventure Newsletter</h2>
-        <p>Subscribe to receive trip updates, special offers, and rafting tips.</p>
-
-        <form action="#" method="post">
-            <div class="form-group">
-                <label for="fullname">Full Name</label>
-                <input type="text" id="fullname" name="fullname" required>
-            </div>
-
-            <div class="form-group">
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-
-            <button type="submit">Subscribe</button>
+    <section class="newsletter-signup">
+        <h2>Join Our Adventure</h2>
+        <form action="https://formspree.io/f/your-form-endpoint" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Sign Up</button>
         </form>
     </section>
     <footer>
